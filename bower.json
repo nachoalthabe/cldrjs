@@ -4,6 +4,10 @@
   "dependencies": {
     "cldr-data": ">=25"
   },
+  "main": [
+    "dist/cldr.js",
+    "dist/cldr/event.js"
+  ],
   "devDependencies": {
     "chai": "1.7.x",
     "eventEmitter": "4.2.7",
